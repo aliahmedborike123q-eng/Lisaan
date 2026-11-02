@@ -336,7 +336,7 @@ fun ProfileOverviewTabScreen(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Icon(
-                        imageVector = if (ach.isUnlocked) Icons.Default.EmojiEvents else Icons.Default.LockOutline,
+                        imageVector = if (ach.isUnlocked) Icons.Default.EmojiEvents else Icons.Default.Lock,
                         contentDescription = null,
                         tint = if (ach.isUnlocked) DesertAmberLight else MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.size(36.dp)
