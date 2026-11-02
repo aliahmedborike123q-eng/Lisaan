@@ -299,7 +299,8 @@ private fun TargetLanguageContent(
             onClick = { onSelectTarget("en") }
         )
         Spacer(modifier = Modifier.height(16.dp))
-        OutlinedCard(
+      OutlinedCard(
+            onClick = {},
             modifier = Modifier.fillMaxWidth(),
             enabled = false
         ) {
